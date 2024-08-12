@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Miquele Oliveira</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#experience">Experiência</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#avaliacoes">Avaliações</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Miquele Oliveira</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experiência</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
+          <li><a href="#avaliacoes" onclick="toggleMenu()">Avaliações</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="miqueleoliveira (red).jpg" alt="Foto de perfil de Miquele Oliveira" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Olá, sou</p>
+        <h1 class="title">Miquele Oliveira</h1>
+        <p class="section__text__p2">body piercer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://calendly.com/miqueleoliveira-prof/perfuracao-corporal')"
+          >
+            Agendamento
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Informações de Contato
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Conheça Mais</p>
+      <h1 class="title">Sobre mim</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="miqueleoliveira2.jpg"
+            alt="Foto de perfil"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="icons8-piercing-50.png"
+                alt="Ícone de Experiência"
+                class="icon"
+              />
+              <h3>Experiência</h3>
+              <p>Formada técnica em piercing corporal e body piercer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="icons8-livro-50.png"
+                alt="Ícone de Educação"
+                class="icon"
+              />
+              <h3>Educação</h3>
+              <p>Graduada em Administração e em Gestão de RH; Graduanda em Medicina</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              23 anos, mãe do wendell e apaixonada por tudo que envolve saúde,  desde muito nova gostei de estudar e trabalhar, tudo aquilo que faço,  faço com muito amor e dedicação,  o studio é um sonho que carrego comigo, nasceu da necessidade de trazer a milhares de pessoas auto estima em forma de piercing, com muita responsabilidade. Visando sempre o bem estar do cliente, bem vinda a minha página virtual.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore Minha</p>
+      <h1 class="title">Experiência</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Body Piercing</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="piercing.png"
+                  alt="Ícone de experiência"
+                  class="icon"
+                />
+                <div>
+                  <h3>Perfuracao Corporal</h3>
+                  <p>Experiente</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="piercing.png"
+                  alt="Ícone de experiência"
+                  class="icon"
+                />
+                <div>
+                  <h3>Piercing intimo</h3>
+                  <p>Experiente</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="piercing.png"
+                  alt="Ícone de experiência"
+                  class="icon"
+                />
+                <div>
+                  <h3>Microdermal</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="piercing.png"
+                  alt="Ícone de experiência"
+                  class="icon"
+                />
+                <div>
+                  <h3>Piercing Surface</h3>
+                  <p>Experiente</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Diferenciais</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="piercing (2).png"
+                  alt="Ícone de experiência"
+                  class="icon"
+                />
+                <div>
+                  <h3>Furo Humanizado</h3>
+                  <p>Sem uso de Anestesia</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="certificado.png"
+                  alt="Ícone de experiência"
+                  class="icon"
+                />
+                <div>
+                  <h3>Capacitada</h3>
+                  <p>"Formada por mais de 10 instituições</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="criatividade.png"
+                  alt="Ícone de experiência"
+                  class="icon"
+                />
+                <div>
+                  <h3>Execelencia</h3>
+                  <p>1ª body piercer de Itamira</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="medalha.png"
+                  alt="Ícone de experiência"
+                  class="icon"
+                />
+                <div>
+                  <h3>Numeros</h3>
+                  <p>+500 perfurações realizadas</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Veja Meus Projetos Recentes</p>
+      <h1 class="title">Projetos</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="projeto55.jpg"
+                alt="Projeto 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Piercing Umbilical</h2>
+            <div class="project-text-container">
+              <div class="project-links">
+                <button
+                  class="btn btn-color-2"
+                  onclick="window.open('https://calendly.com/miqueleoliveira-prof/perfuracao-corporal')"
+                >
+                  Agendamento
+                </button>
+                <button
+                  class="btn btn-color-1"
+                  onclick="window.open('https://www.instagram.com/kely_oliveira2911?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==')"
+                >
+                  Ver Mais
+                </button>
+              </div>
+              <p>
+                O piercing umbilical, também conhecido como piercing no umbigo, é um dos tipos mais populares de piercings corporais. Ele é colocado na pele ao redor do umbigo, geralmente na parte superior, onde uma pequena porção de pele é perfurada para permitir a inserção de uma joia.
+              </p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="editar1 (2).jpg"
+                alt="Projeto 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Piercing Transversal</h2>
+            <div class="project-links">
+              <button
+                class="btn btn-color-2"
+                onclick="window.open('https://calendly.com/miqueleoliveira-prof/perfuracao-corporal')"
+              >
+                Agendamento
+              </button>
+              <button
+                class="btn btn-color-1"
+                onclick="window.open('https://www.instagram.com/kely_oliveira2911?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==')"
+              >
+                Ver Mais
+              </button>
+            </div>
+            <p> 
+              O piercing transversal é uma opção ousada e única que envolve duas perfurações conectadas por uma única joia, geralmente na orelha. Ele é feito atravessando a cartilagem da orelha de forma horizontal ou diagonal, criando um visual distinto e moderno.
+            </p>
+          </div>
+        </div>
+      </div>
+      <section class="container" id="avaliacoes">
+        <p class="section__text__p1">Leia as opiniões de quem já experimentou</p>
+        <h1 class="header">Avaliações</h1>
+        <div class="features">
+            <div class="card">
+                <span><i class="ri-user-line"></i></span>
+                <h4>Aline Araujo</h4>
+                <p>
+                    "Miquele é uma profissional excelente! O piercing ficou perfeito."
+                </p>
+            </div>
+            <div class="card">
+                <span><i class="ri-user-line"></i></span>
+                <h4>Felipe Oliveira</h4>
+                <p>
+                    "Atendimento impecável e muita atenção aos detalhes."
+                </p>
+            </div>
+            <div class="card">
+                <span><i class="ri-user-line"></i></span>
+                <h4>Maria Vitoria</h4>
+                <p>
+                    "A experiência foi incrível, com certeza voltarei para mais serviços."
+                </p>
+            </div>
+            <div class="card">
+                <span><i class="ri-user-line"></i></span>
+                <h4>Maria Eduarda</h4>
+                <p>
+                    "Recomendo a Miquele para todos que querem um piercing com segurança e estilo."
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Vamos Conversar</p>
+      <h1 class="title">Entre em Contato</h1>
+      <div class="contact-container">
+        <div class="about-containers contact-box">
+          <div class="details-container color-container">
+            <div class="article-container contact-info">
+              <h2 class="experience-sub-title contact-title">Informações de Contato</h2>
+              <p>
+                E-mail: <a href="mailto:miqueleoliveira.prof@gmail.com">miqueleoliveira.prof@gmail.com</a>
+              </p>
+              <p>Telefone: (75) 9955-9033</p>
+              <p>Endereço: Em Frente ao Cetti Itamira, SN, Itamira, BA</p>
+              <p>
+                Instagram: <a href="https://www.instagram.com/kely_oliveira2911/" target="_blank">@Kely_oliveira2911</a>
+              </p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container contact-info">
+              <h2 class="experience-sub-title contact-title">Informações Adicionais</h2>
+              <p>
+                No caso de joias especificas checar disponibilidade, os materias utilizados nas joias são: Aço cirúrgico, titânio e prata 925, não havendo a joia que você queira realizamos também encomendas.</p>
+
+
+                
+                <p>&copy; 2024 Miquele Oliveira. Todos os direitos reservados. Desenvolvido por Henrique Santos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
